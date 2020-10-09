@@ -1,0 +1,49 @@
+.drum-container {
+  width: 100vw;
+  max-width: 900px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid blue;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+
+  .drumpad-container {
+    width: 90%;
+    max-width: 400px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid pink;
+
+    .pushbutton {
+      width: 25%;
+      height: 40px;
+      border: 1px solid #222;
+      text-align: center;
+      justify-content: center;
+      margin: 5px 10px;
+    }
+
+    @media (min-width: 650px) {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .drum-container {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 790px) {
+  .drum-container {
+    width: 70vw;
+  }
+}

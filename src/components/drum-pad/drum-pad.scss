@@ -1,0 +1,12 @@
+.pushbutton {
+  width: 25%;
+  height: 40px;
+  border: 1px solid #222;
+  text-align: center;
+  justify-content: center;
+  margin: 5px 10px;
+}
+
+.pushbutton:active{
+background-color: red;
+}
